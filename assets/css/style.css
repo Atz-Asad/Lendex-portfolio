@@ -291,6 +291,9 @@ a{
 	-webkit-transition: .5s;
 	transition: .5s;
 	display: inline-block;
+	right: 0;
+	position: absolute;
+	margin-right: 1rem;
 }
 .offcanvas-close:hover{
 	background: #2E303D;
@@ -306,6 +309,11 @@ a{
 	font-size: 16px;
 	font-size: 1.6rem;
 }
+.m-sub {
+	width: 100%;
+	background: #2A2C39;
+}
+
   /************************/
  /**** 2:banner-area******/
 /************************/

@@ -12,6 +12,19 @@
         padding: 3rem 3rem 0 3rem;
     }
 }
+
+.right-men {
+	right: 0 !important;
+	display: block;
+}
+
+/* min-width */
+@media all and (min-width:992px){
+    .right-men {
+        right: 0 !important;
+        display: none;
+    }
+}
 @media all and (max-width:992px){
     /* banner-area */
     .banner {
